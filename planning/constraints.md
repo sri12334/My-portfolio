@@ -4,29 +4,22 @@ Some boundaries around our project.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over.
-  These may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+constraints coming from the outside that your team has no control over. These
+may include:
+
+- 30 jan
+- simple color scheme, primarily black and white
+- HTML
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over.
-  They may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+- I will provide an honest representation of my current skill levels in HTML
+- 9AM-5PM
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- I will maintain a consistent coding style and follow good programming
+  practices for clean and readable code.
+- I commit to spending dedicated time on my portfolio to ensure steady progress.
+- My portfolio will use a simple color scheme, primarily black and white, to
+  achieve a clean and minimalist design.
