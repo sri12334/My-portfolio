@@ -1,7 +1,6 @@
 # Portfolio
 
-> Crafting a compelling portfolio to showcase skills, projects, and experiences
-> in the world of technology and creativity.
+> Crafting a compelling portfolio to showcase skills, projects, and experiences in the world of technology and creativity.
 
 ## Table of contents
 
@@ -23,8 +22,7 @@
 
 ## General info
 
-> Providing a concise overview of key information to offer a quick understanding
-> of the project's scope and purpose
+> Providing a concise overview of key information to offer a quick understanding of the project's scope and purpose
 
 ## Screenshots
 
