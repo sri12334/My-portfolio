@@ -15,11 +15,10 @@
     "Verwijs",
     "Todos",
     "wireframe",
-    "Ramya",
-    "Loruki"
     "Ramya's",
     "Ramya",
-    "Lato"
+    "Lato",
+    "Loruki"
   ],
   "ignorePaths": [
     "node_modules/**",

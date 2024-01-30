@@ -1,6 +1,7 @@
-# Name of project
+# Portfolio
 
-> A longer description
+> Crafting a compelling portfolio to showcase skills, projects, and experiences
+> in the world of technology and creativity.
 
 ## Table of contents
 
@@ -22,23 +23,25 @@
 
 ## General info
 
-> A short description
+> Providing a concise overview of key information to offer a quick understanding
+> of the project's scope and purpose
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/screenshort.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
 - JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
-- `npm run start`
+- `Clone the repository`
+- `npm install`
 
 ## Code Examples
 
@@ -47,18 +50,35 @@
 console.log("Hello World");
 ```
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project!</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    Hello world
+  </body>
+</html>
+```
+
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- Feature 1
+- Feature 2
+- Feature 3
 
 To-do list:
 
--
--
+- Implement additional feature
+- Enhance existing functionality
+- Address any pending improvements
 
 ## Status
 
@@ -70,7 +90,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+By [Ramya]
 
 ## Instructions for use
 
