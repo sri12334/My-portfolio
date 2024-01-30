@@ -1,55 +1,75 @@
 # Project Name
 
-<!-- describe your project -->
-
----
+## PORTFOLIO
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+Create a repository and clone the repo and run npm install.
 
----
-
-<!-- copy this section once for each must-have user story -->
+## Include details about what code is needed to open the portfolio page.
 
 ## user story
 
-<!-- each issue created from this section will have the `for: user story` label -->
+"As the portfolio owner, I want to create a homepage to showcase my skills and
+expertise."
 
-> "as a ... i can ... so that ..."
+Tasks
 
-<!-- write any extra notes or description -->
+### HTML: User Story
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+-[ ] Develop HTML structure for the homepage. Include sections for the owner's
+name, title, and key skills.
 
-### Logic: user story
+### Interface: User Story
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+-[ ] Design a clean HTML structure for the header. -[ ] Create visually
+appealing HTML elements to showcase key skills.
 
-### Interface: user story
+### Documentation: User Story
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+-[ ] Document the HTML structure of the homepage. -[ ] Include any relevant
+information about the design choices in the project documentation.
 
-### Interaction: user story
+## User Story 2
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+"As the portfolio owner, I want to display my projects to demonstrate my
+practical experience."
 
-### Documentation: user story
+Tasks
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### HTML: User Story
+
+-[ ] Develop HTML structure for showcasing projects. -[ ] Include HTML elements
+for project thumbnails and brief descriptions.
+
+### Interface: User Story
+
+-[ ] Design a dedicated HTML section for showcasing projects. -[ ] Create
+visually engaging HTML layout for project showcase.
+
+### Documentation: User Story
+
+-[ ] Document the HTML structure of the project showcase section. -[ ] Include
+any relevant information about the design choices in the project documentation.
+
+## User Story 3
+
+"As the portfolio owner, I want to provide a contact section for inquiries and
+connections."
+
+Tasks
+
+### HTML: User Story
+
+-[ ] Develop HTML structure for the contact section. -[ ] Include HTML form
+elements for name, email, and message.
+
+### Interface: User Story
+
+-[ ] Design a clear and accessible HTML contact section. -[ ] Style HTML form
+elements for a user-friendly experience.
+
+### Documentation: User Story
+
+-[ ] Document the HTML structure of the contact section. -[ ] Include any
+relevant information about the design choices in the project documentation.
