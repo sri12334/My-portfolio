@@ -10,7 +10,7 @@
 - **Frustrations**:
   - Unclear presentation of design projects and skills.
   - Complex or confusing portfolio navigation.
-- **Scenario 1**: Alex visits the portfolio website to explore your front-end
+- **Scenario 1**: ramya visits the portfolio website to explore your front-end
   design projects, seeking a clear understanding of your design skills.
 
 ## Fellow Design Enthusiast
