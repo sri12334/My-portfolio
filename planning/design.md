@@ -26,7 +26,7 @@ effective communication with visitors.
 
 ## Wireframe(s)
 
-> link to wireframe -[ ]
+> link to wireframe -[ ] >
 > [wireframe](https://excalidraw.com/#json=Xc27bqmuGtQaUYg6pEhg3,qKqRqwlm6758xfKa-tC8JQ)
 
 ---
