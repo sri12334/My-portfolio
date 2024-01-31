@@ -6,7 +6,7 @@
 
 Create a repository and clone the repo and run npm install.
 
-## Include details about what code is needed to open the portfolio page.
+## Include details about what code is needed to open the portfolio page
 
 ## user story
 
