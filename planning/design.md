@@ -11,12 +11,12 @@ effective communication with visitors.
 <!-- describe the reasoning behind your group's design and wireframe -->
 <!-- include other centralized decisions like fonts, palates, ... -->
 
-### Design Choices:
+### Design Choices
 
-- **Color Palette:** Employing a primary color of #3498db (Blue) for a
+- **Color Palette:** Employing a primary color of #696969 (dark) for a
   professional and trustworthy feel, complemented by a secondary color of
-  #2ecc71 (Green) for contrast and emphasis.
-- **Background:** #000000 (Black);
+  #beabc7 (dark) for contrast and emphasis.
+- **Background:** #000000 (Black)
 - **Fonts:** Utilizing Open Sans for main content, ensuring readability, and
   Lato for headings to add a touch of modernity.
 - **Layout:** Employing a grid-based layout for structure and organization, with
