@@ -52,7 +52,7 @@ h2 {
   width: 100vw;
   background: url("../public/my-img.jpeg");
   background-size: cover;
-  display: inline-block;
+  max-width: 100%;
 }
 
 nav {
@@ -71,18 +71,78 @@ a:hover {
 }
 
 .home {
+  width: 50vw;
   color: white;
-  text-align: center;
-  position: relative;
-  top: 250px;
   font-size: xx-large;
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  left: 600px;
+  top: 150px;
 }
 
 @media screen and (max-width: 767px) {
   .container {
     width: 100%;
+  }
+
+  #home {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .home {
+    width: 90vw;
+    padding: 0;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    z-index: 2;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  #home {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: 100px;
+    left: 400px;
+    z-index: 2;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  #home {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+    padding: 0;
+    position: relative;
+    left: 600px;
+    top: 150px;
   }
 }
