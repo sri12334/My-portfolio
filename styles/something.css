@@ -8,13 +8,9 @@
 
 body {
   background-color: black;
-  margin: 0;
-  padding: 0;
 }
 
-#projects,
-#about-me,
-#contact {
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,8 +21,8 @@ body {
   text-align: center;
 }
 
-.desc {
-  padding: 0 20% 20px;
+h2 {
+  font-family: "Caveat", cursive;
 }
 
 hr {
@@ -42,6 +38,9 @@ h2 {
 .a-color {
   color: #beabc7;
 }
+.a-color:hover {
+  color: cornflowerblue;
+}
 
 .project {
   padding: 20px;
@@ -49,7 +48,6 @@ h2 {
 
 #home {
   height: 100vh;
-  width: 100vw;
   background: url("../public/my-img.jpeg");
   background-size: cover;
   max-width: 100%;
@@ -57,7 +55,30 @@ h2 {
 
 nav {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  /* transform: translate(-52%, -50%); */
+  background-color: rgba(51, 51, 51, 0.7);
+  margin: 10px;
+  position: fixed;
+  width: 80%;
+
+  z-index: 2;
+  border-radius: 10px;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 a {
@@ -80,6 +101,19 @@ a:hover {
   position: relative;
   left: 600px;
   top: 150px;
+  font-family: "Acme", sans-serif;
+  opacity: 0; /* Start with opacity set to 0 */
+  animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -87,19 +121,25 @@ a:hover {
     width: 100%;
   }
 
+  a {
+    padding: 10px;
+  }
   #home {
     position: relative;
     z-index: 1;
     width: 100%;
   }
-
+  .desc {
+    font-size: medium;
+  }
   .home {
     width: 90vw;
     padding: 0;
     position: relative;
-    top: 100px;
-    left: 30px;
+    top: 250px;
+    left: 23px;
     z-index: 2;
+    font-size: x-large;
   }
 }
 
@@ -119,9 +159,11 @@ a:hover {
     justify-content: center;
     padding: 0;
     position: relative;
-    top: 100px;
-    left: 400px;
+    top: 350px;
+    left: 350px;
     z-index: 2;
+    font-size: 35px;
+    text-align: center;
   }
 }
 
@@ -138,11 +180,35 @@ a:hover {
 
   .home {
     display: flex;
+    align-self: center;
     justify-content: center;
     width: 45vw;
     padding: 0;
     position: relative;
-    left: 600px;
-    top: 150px;
+    left: 529px;
+    top: 300px;
+  }
+}
+
+@media only screen and (min-width: 1219px) {
+  .container {
+    width: 100%;
+  }
+
+  #home {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .home {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 45vw;
+    padding: 0;
+    position: relative;
+    left: 659px;
+    top: 300px;
   }
 }
