@@ -1,21 +1,21 @@
-body,
-html {
+/* body {
   overflow-x: hidden;
-}
+  position: relative;
+} */
 
 #about-me {
   color: aliceblue;
-  font-family: "Caveat", cursive;
+  font-family: Caveat, cursive;
 }
+
 .about-bg-img {
   height: 100%;
   background-image: url("../public/bg-img.jpg");
   background-size: cover;
-
   max-width: 100%;
-
   position: relative;
 }
+
 .about-bg-img::before {
   content: "";
   position: absolute;
@@ -32,14 +32,16 @@ html {
   align-items: center;
   flex-direction: column;
   color: #f2efe5;
-  opacity: 0; /* Start with opacity set to 0 */
-  animation: fadeIn 1.5s forwards;
+  opacity: 0;
+  animation: fade-in 1.5s forwards;
 }
-@keyframes fadeIn {
+
+@keyframes fade-in {
   from {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -53,9 +55,11 @@ html {
   flex-direction: column;
   margin-bottom: 20px;
 }
+
 h3 {
   text-decoration: underline;
 }
+
 .desc,
 h3 {
   font-family: "Inconsolata", monospace;
@@ -67,14 +71,16 @@ h3 {
   margin-top: 150px;
   font-size: xx-large;
 }
+
 .gap {
   margin-bottom: 50px;
 }
+
 .go-to-projects {
   color: rgb(112, 187, 187);
 }
 
-.animated-image {
+/* .animated-image {
   background-color: aliceblue;
   position: absolute;
   left: -100px;
@@ -86,15 +92,16 @@ h3 {
 }
 @keyframes slideInAndRotate {
   0% {
-    left: -300px;
+    left: -100%;
     transform: translateY(-50%) rotate(360deg);
   }
   50% {
-    left: 150px;
+    left: 50%;
     transform: translateY(-50%) rotate(0deg);
   }
   100% {
-    left: 300px;
+    display: none;
+    left: 100%;
     transform: translateY(-50%) rotate(80deg);
   }
-}
+} */
