@@ -1,13 +1,47 @@
 #projects {
-  background-image: linear-gradient(to right, #141e30, #243b55);
-  opacity: 0; /* Start with opacity set to 0 */
-  animation: fadeIn 1.5s forwards;
+  color: aliceblue;
+  font-family: Caveat, cursive;
 }
-@keyframes fadeIn {
+
+.project-bg-img {
+  height: 100%;
+  background-image: url("../public/bg-img.jpg");
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+
+.project-bg-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 50%);
+}
+
+.project-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f2efe5;
+  text-align: center;
+  opacity: 0;
+  animation: fade-in 1.5s forwards;
+}
+
+.project p {
+  font-family: Inconsolata, monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+@keyframes fade-in {
   from {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

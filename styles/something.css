@@ -10,21 +10,6 @@ body {
   background-color: black;
 }
 
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #696969;
-  color: white;
-  text-align: center;
-}
-
-h2 {
-  font-family: "Caveat", cursive;
-}
-
 hr {
   width: 150px;
   text-align: center;
@@ -33,11 +18,13 @@ hr {
 h2 {
   font-size: 50px;
   padding: 15px;
+  font-family: Caveat, cursive;
 }
 
 .a-color {
   color: #beabc7;
 }
+
 .a-color:hover {
   color: cornflowerblue;
 }
@@ -59,22 +46,21 @@ nav {
   position: absolute;
   left: 10%;
   top: 5%;
-  /* transform: translate(-52%, -50%); */
-  background-color: rgba(51, 51, 51, 0.7);
+  background-color: rgba(51, 51, 51, 70%);
   margin: 10px;
-  position: fixed;
   width: 80%;
-
   z-index: 2;
   border-radius: 10px;
   opacity: 0;
-  animation: fadeIn 1.5s forwards;
+  animation: fade-in 1.5s forwards;
 }
-@keyframes fadeIn {
+
+@keyframes fade-in {
   from {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -101,15 +87,17 @@ a:hover {
   position: relative;
   left: 600px;
   top: 150px;
-  font-family: "Acme", sans-serif;
-  opacity: 0; /* Start with opacity set to 0 */
-  animation: fadeIn 1.5s forwards;
+  font-family: Acme, sans-serif;
+  opacity: 0;
+  animation: fade-in 1.5s forwards;
 }
-@keyframes fadeIn {
+
+@keyframes fade-in {
   from {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -124,14 +112,17 @@ a:hover {
   a {
     padding: 10px;
   }
+
   #home {
     position: relative;
     z-index: 1;
     width: 100%;
   }
+
   .desc {
     font-size: medium;
   }
+
   .home {
     width: 90vw;
     padding: 0;
